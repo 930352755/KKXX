@@ -1,0 +1,16 @@
+{
+    "name": "Unity.AdjustSDK.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:32f1897a90b7541a0a037ae46af8574c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
