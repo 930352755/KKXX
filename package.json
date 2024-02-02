@@ -1,0 +1,20 @@
+{
+    "name": "com.unity.thinkingsdk",
+    "version": "1.0.0",
+    "displayName":"ThinkingSDK",
+    "description": "完整的数数SDK接入到游戏中，只需要去调用初始化就行了",
+
+    "author": 
+    {
+        "name": "KKXX"
+    },
+
+    "samples":[
+    {
+        "displayName":"samples",
+        "description":"这是一个案例",
+        "path":"Samples~/ThinkInitial"
+    }
+    ]
+
+}
