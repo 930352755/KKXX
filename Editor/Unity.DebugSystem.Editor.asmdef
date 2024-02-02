@@ -2,7 +2,7 @@
     "name": "Unity.DebugSystem.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:d3ccbd26ad80f4d4faccaaedf4ae82d2"
+        "GUID:f728f6ae993f74d6dba4f13d72f121af"
     ],
     "includePlatforms": [
         "Editor"
