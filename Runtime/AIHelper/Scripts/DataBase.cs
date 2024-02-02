@@ -8,30 +8,9 @@ using System.Reflection;
 namespace AIHelp
 {
     [Serializable]
-    public class  DataBase<T> where T : DataBase<T>
+    public class  DataBase
     {
-        private static T dataBase = default;
-        public static T Instance
-        {
-            get
-            {
-                if (dataBase == null)
-                { 
-                    //先获取非Public的构造方法
-                    ConstructorInfo[] ctors = typeof(T).GetConstructors(BindingFlags.Instance | BindingFlags.NonPublic);
-                    //从ctors中获取无惨的构造方法
-                    ConstructorInfo ctor = Array.Find(ctors, (c) => c.GetParameters().Length == 0);
-                    if (ctor == null)
-                    {
-                        throw new Exception("该类没有私有构造函数" + typeof(T));
-                    }
-                    //调用构造方法
-                    dataBase = ctor.Invoke(null) as T;
-                    dataBase.LoadData();
-                }
-                return dataBase;
-            }
-        }
+
         public virtual string DataPath => GetType().Name;
         public string FilePath => Path.Combine(UnityEngine.Application.persistentDataPath, "GameData", DataPath);
         public string DirectoryPath => Path.Combine(UnityEngine.Application.persistentDataPath, "GameData");

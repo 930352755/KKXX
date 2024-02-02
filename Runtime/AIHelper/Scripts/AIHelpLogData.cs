@@ -4,9 +4,24 @@ using UnityEngine;
 
 namespace AIHelp
 {
-    public class AIHelpLogData : DataBase<AIHelpLogData>
-    {
-        private AIHelpLogData() { }
+    public class AIHelpLogData : DataBase
+{
+        private static AIHelpLogData instance = null;
+        public static AIHelpLogData Instance
+        {
+            get
+            {
+                if(instance == null)
+                {
+                    instance = new AIHelpLogData();
+                }
+                return instance;
+            }
+        }
+        private AIHelpLogData()
+        {
+            OnLoad();
+        }
         public override string DataPath => "AIHelpLog.txt";
         public List<string> logs = new List<string>();
 
