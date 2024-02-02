@@ -1,0 +1,11 @@
+{
+    "name": "com.unity.debugsystem",
+    "version": "1.0.0",
+    "displayName": "DebugSystem",
+    "description": "Debug模式下看log工具以及测试所用工具",
+
+    "author": {
+        "name": "KKXX"
+    }
+    
+}
