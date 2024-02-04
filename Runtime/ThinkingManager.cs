@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using ThinkingAnalytics;
 using UnityEngine;
 
-namespace RewardCardSDK.Thinking
+namespace KKXXSDK.Thinking
 {
     public class ThinkingManager
     {
