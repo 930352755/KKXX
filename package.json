@@ -1,0 +1,10 @@
+{
+    "name": "com.unity.simplejson",
+    "version": "1.0.0",
+    "displayName": "SDK SimpleJSON",
+    "description": "简单的JSON工具",
+    "author": {
+        "name": "KKXX"
+    }
+
+}
