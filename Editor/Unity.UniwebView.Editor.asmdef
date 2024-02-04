@@ -1,0 +1,18 @@
+{
+    "name": "Unity.UniwebView.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:314b0229ad3894f7b948b462f8277a76"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

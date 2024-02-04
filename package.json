@@ -1,0 +1,10 @@
+{
+    "name": "com.unity.uniwebview",
+    "version": "1.0.0",
+    "displayName": "SDK UniwebView",
+    "description": "完美的UniwebView接入到游戏中，只需要去调用打开URL就行了",
+
+    "author": {
+        "name": "KKXX"
+    }
+}
