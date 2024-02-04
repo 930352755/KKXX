@@ -1,0 +1,11 @@
+{
+    "name": "com.unity.unirxasync",
+    "version": "1.0.0",
+    "displayName": "SDK UniRx",
+    "description": "UniRx 和 UniRx.Async插件",
+
+    "author": {
+        "name": "KKXX"
+    }
+
+}
