@@ -136,9 +136,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imgGui: {fileID: 2800000, guid: b182d461ee1664714bc903af43be1393, type: 3}
-  prefab: {fileID: 2383173961768882546}
+  prefab: {fileID: 1900085666445226, guid: 7e3f16a6f6303419cbd9837f6c746de4, type: 3}
   showImg: {fileID: 2383173960416661808}
-  childPanel: {fileID: 1900085666445226, guid: 7e3f16a6f6303419cbd9837f6c746de4, type: 3}
+  childPanel: {fileID: 2383173961768882546}
 --- !u!223 &2383173961334390917
 Canvas:
   m_ObjectHideFlags: 0
