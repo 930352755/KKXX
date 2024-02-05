@@ -1,0 +1,19 @@
+{
+    "name": "Unity.MinUIFrameworkSystem.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:b5140e4aab5b347cf88a8deff42bda36",
+        "GUID:450a03ef899cc4291bbcbdeca5750f79",
+        "GUID:84651a3751eca9349aac36a66bba901b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

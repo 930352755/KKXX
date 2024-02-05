@@ -1,0 +1,19 @@
+{
+    "name": "Unity.MinUIFrameworkSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fb0e69e25bc314aaeaed36a4fb7effe1",
+        "GUID:69448af7b92c7f342b298e06a37122aa"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

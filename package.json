@@ -1,0 +1,16 @@
+{
+    "name": "com.unity.minuiframeworksystem",
+    "version": "1.0.0",
+    "displayName": "ZXY MinUIFrameworkSystem",
+    "description": "小UI框架，依赖张新宇的工具，依赖DOTween 插件",
+
+    "dependencies": {
+        "com.unity.zxywdzjl": "1.0.0",
+        "com.unity.pluginstoolssdk": "1.0.0",
+        "com.unity.addressables": "1.18.19"
+    },
+
+    "author": {
+        "name": "KKXX"
+    }
+}
