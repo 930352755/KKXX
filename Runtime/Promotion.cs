@@ -43,6 +43,28 @@ public class Promotion : MonoBehaviour
     }
 
     private System.Action h5SuccCellback = null;
+
+
+    public void Show(string url)
+    {
+        UniWebViewLogger.Instance.LogLevel = UniWebViewLogger.Level.Debug;
+        Screen.orientation = ScreenOrientation.Portrait;
+        if (webView != null)
+        {
+            Destroy(webView.gameObject);
+        }
+        this.childPanel.SetActive(true);
+        if (webView == null)
+        {
+            GameObject go1 = Instantiate(prefab);
+            webView = go1.GetComponent<UniWebView>();
+            webView.Load(url);
+            webView.ReferenceRectTransform = showImg;
+            webView.SetShowSpinnerWhileLoading(true);
+            webView.Show();
+        }
+    }
+
     public void Show(string url,System.Action h5SuccCellback,string token,int appid)
     {
         Token = token;
