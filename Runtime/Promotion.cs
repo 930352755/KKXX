@@ -45,7 +45,7 @@ public class Promotion : MonoBehaviour
     private System.Action h5SuccCellback = null;
 
 
-    public void Show(string url)
+    public void ShowUrl(string url)
     {
         UniWebViewLogger.Instance.LogLevel = UniWebViewLogger.Level.Debug;
         Screen.orientation = ScreenOrientation.Portrait;
