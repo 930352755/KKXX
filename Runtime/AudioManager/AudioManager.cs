@@ -65,7 +65,6 @@ namespace Game
         {
             AudioData audioData = GetAudioData(key);
             string name = audioData.name;
-            MusicVolume = audioData.volume;
 
             ISPlayMusic = false;
             curBGM = name;
